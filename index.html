@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- link to bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      padding: 1rem 5rem;
+      font-family: serif;
+    }
+
+    main {
+      padding: 2rem 0;
+    }
+
+    hr {
+      color: #fff;
+    }
+
+    .nav-link {
+      font-size: larger;
+      margin-right: 20px;
+
+    }
+
+    .nav-link:hover {
+      color: lightcoral;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .imgpos {
+      height: 350px;
+
+    }
+
+    .img1 {
+      height: 300px;
+      width: 740px;
+    }
+
+    .new {
+      background-color: #03001C;
+      height: 500px;
+      width: 370px;
+      margin-left: 180px;
+      margin-right: 0;
+      padding: 2rem 3rem;
+    }
+
+    .new1 {
+      color: goldenrod;
+    }
+
+    .p1 {
+      color: #fff;
+    }
+
+    .hov {
+      text-decoration-line: none;
+      color: #fff;
+    }
+
+    .hov:hover {
+      color: goldenrod;
+    }
+
+    .div3 {
+      display: flex;
+    }
+    .hw {
+      text-align: left;
+      font-weight:bolder;
+      width: 300px;
+    }
+
+    .mid {
+      margin: 0;
+      margin-left: 6rem;
+    }
+
+    .pmid1 {
+      margin: 0;
+      padding: 0;
+      color: grey;
+      width: 350px;
+      text-align: left;
+    }
+
+    .amid1 {
+
+      margin-left: 1rem;
+      border: solid 0.1px;
+      color: #03001C;
+      text-decoration-line: none;
+      display: inline-block;
+      padding: .8rem;
+      text-align: center;
+      width: 200px;
+    }
+
+    .amid1:hover {
+      background-color: #03001C;
+      color: #fff;
+    }
+
+    .last-side {
+      display: flex;
+
+    }
+
+    .nflex {
+      padding: 0 1rem;
+    }
+
+    .img2 {
+      height: 150px;
+    }
+
+    .h31 {
+      color: grey;
+    }
+
+    .h51 {
+      text-decoration-line: none;
+      color: #03001C;
+    }
+
+    .h51:hover {
+      color: lightcoral;
+    }
+  </style>
+</head>
+
+<body>
+  <Section id="home-tab">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand br-name" href="#">
+          <h1>W.</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar navbar-expand-sm" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </Section>
+  <main>
+    <div class="row">
+      <div class="col-lg-6 imgpos">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="web3-image" class="img1">
+      </div>
+      <div class="col-lg-6 imgpos">
+        <div class="new">
+          <h1 class="new1">New</h1>
+
+          <a href="#" class="hov">
+            <h4>Hydrogen VS Electric Cars</h4>
+          </a>
+          <p class="p1">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr>
+          <a href="#" class="hov">
+            <h4>The Downsides of AI Artistry</h4>
+          </a>
+          <p class="p1">What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr>
+          <a href="#" class="hov">
+            <h4>Is VC Funding Drying Up?</h4>
+          </a>
+          <p class="p1">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 div3">
+        <div class="h1-head">
+          <H1 class="hw">The Bright Future of Web 3.0?</H1>
+        </div>
+        <div class="mid">
+          <p class="pmid1">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+            of the people.
+            But is it really fulfilling its promise?</p>
+          <a href="#" class="amid1">Read more</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="row">
+    <div class="col-lg-4 last-side">
+      <img src="assets/images/image-retro-pcs.jpg" alt="" class="img2">
+      <div class="nflex">
+        <h3 class="h31">01</h3>
+        <a href="#" class="h51">
+          <h5>Reviving Retro PCs</h5>
+        </a>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="col-lg-4 last-side">
+      <img src="assets/images/image-top-laptops.jpg" alt="" class="img2">
+      <div class="nflex">
+        <h3 class="h31">02</h3>
+        <a href="#" class="h51">
+          <h5>Top 10 Laptops of 2022</h5>
+        </a>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 last-side">
+      <img src="assets/images/image-gaming-growth.jpg" alt="" class="img2">
+      <div class="nflex">
+        <h3 class="h31">03</h3>
+        <a href="#" class="h51">
+          <h5>The Growth of Gaming</h5>
+        </a>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Abhishek Bansal</a>.
+  </div>
+</body>
+
+</html>
